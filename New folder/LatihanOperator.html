@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Latian Operator</title>
+</head>
+<body>
+    <script>
+        //no 1
+    let membayar = true;
+    let ikutUjian = membayar && true;
+
+    if (ikutUjian) {
+        console.log("Anda sudah melalukan pembayaran dan dapat mengikuti ujian");
+    } else {
+        console.log("Sihlakan lakukan pembayaran terlebihdahulu");
+    }
+
+    // no 2
+    let mendapatizin = true;
+    let mainGame = mendapatizin || false;
+
+    if (mainGame) {
+        console.log("Mulai, Untuk Bermain");
+    } else {
+        console.log("Maaf, Masukan email anda terlebih dahulu");
+    }
+
+    //no 3
+    let login = false;
+    let izinLogin = !true;
+
+    if (izinLogin) {
+        console.log("Selamat, Anda berhasil login");
+    } else {
+        console.log("Maaf, Login Gagal");
+    }
+    </script>
+</body>
+</html>
